@@ -24,6 +24,6 @@ public class DoWhileCuti08 {
                     System.out.println("Sisa jatah cuti anda " + jatahCuti);
                 }
             }
-        } while (jatahCuti > 0);
+        } while (jatahCuti > 0 && !konfirmasi.equalsIgnoreCase("t"));
     }    
     }
